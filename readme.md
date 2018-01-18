@@ -5,3 +5,4 @@
 ## linux  
 - [20180115_设置终端位置及大小.md](https://github.com/nautilis/note/blob/master/linux/20180115_设置终端位置及大小.md)  
 - [20180116_权限.md](https://github.com/nautilis/note/blob/master/linux/20180116_权限.md)  
+- [20180118_vim相关.md](https://github.com/nautilis/note/blob/master/linux/20180118_vim相关.md)  
