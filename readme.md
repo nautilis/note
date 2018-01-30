@@ -1,3 +1,5 @@
+## front-end  
+- [20180116_react.md](https://github.com/nautilis/note/blob/master/front-end/20180116_react.md)  
 ## language_tools  
 - [20180128_flask.md](https://github.com/nautilis/note/blob/master/language_tools/20180128_flask.md)  
 - [20180125_python.md](https://github.com/nautilis/note/blob/master/language_tools/20180125_python.md)  
@@ -6,8 +8,6 @@
 ## network  
 - [20180120_HTTP协议.md](https://github.com/nautilis/note/blob/master/network/20180120_HTTP协议.md)  
 - [20180120_ssh相关.md](https://github.com/nautilis/note/blob/master/network/20180120_ssh相关.md)  
-## forn-end  
-- [20180116_react.md](https://github.com/nautilis/note/blob/master/forn-end/20180116_react.md)  
 ## spider  
 - [20180116_casperjs.md](https://github.com/nautilis/note/blob/master/spider/20180116_casperjs.md)  
 ## linux  
