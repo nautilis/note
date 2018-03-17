@@ -1,3 +1,6 @@
+## book  
+- [.20180313_Metaprogramming ruby.md.swp](https://github.com/nautilis/note/blob/master/book/.20180313_Metaprogramming ruby.md.swp)  
+- [20180313_Metaprogramming ruby.md](https://github.com/nautilis/note/blob/master/book/20180313_Metaprogramming ruby.md)  
 ## front-end  
 - [20180116_react.md](https://github.com/nautilis/note/blob/master/front-end/20180116_react.md)  
 ## language_tools  
@@ -6,6 +9,8 @@
 - [20180125_python.md](https://github.com/nautilis/note/blob/master/language_tools/20180125_python.md)  
 - [20180120_JS.md](https://github.com/nautilis/note/blob/master/language_tools/20180120_JS.md)  
 - [20180121_ffmpeg.md](https://github.com/nautilis/note/blob/master/language_tools/20180121_ffmpeg.md)  
+## foreignlanguage  
+- [20180317_new_concept_englis.md](https://github.com/nautilis/note/blob/master/foreignlanguage/20180317_new_concept_englis.md)  
 ## network  
 - [20180120_HTTP协议.md](https://github.com/nautilis/note/blob/master/network/20180120_HTTP协议.md)  
 - [20180120_ssh相关.md](https://github.com/nautilis/note/blob/master/network/20180120_ssh相关.md)  
