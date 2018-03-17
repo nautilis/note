@@ -1,6 +1,7 @@
 #! /usr/bin/python
 import os
 import re
+import urllib
 
 dirnames = []
 results = [] 
@@ -22,7 +23,9 @@ for result in results:
     for key, values in result.iteritems():
         string += "## {}  \r\n".format(key)
         for value in values:
-            string += "- [{}](https://github.com/nautilis/note/blob/master/{}/{})  \r\n".format(value, key, value)
+            url = urllib.quote("https://github.com/nautilis/note/blob/master/{}/{}".format(key, value))
+            #string += "- [{}](https://github.com/nautilis/note/blob/master/{}/{})  \r\n".format(value, key, value)
+            string += "- [{}]({})  \r\n".format(value, url)
 
 print string
 
