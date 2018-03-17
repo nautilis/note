@@ -1,5 +1,4 @@
 ## book  
-- [.20180313_Metaprogramming ruby.md.swp](/book/.20180313_Metaprogramming%20ruby.md.swp)  
 - [20180313_Metaprogramming ruby.md](/book/20180313_Metaprogramming%20ruby.md)  
 ## front-end  
 - [20180116_react.md](/front-end/20180116_react.md)  
@@ -10,7 +9,7 @@
 - [20180120_JS.md](/language_tools/20180120_JS.md)  
 - [20180121_ffmpeg.md](/language_tools/20180121_ffmpeg.md)  
 ## foreignlanguage  
-- [20180317_new_concept_englis.md](/foreignlanguage/20180317_new_concept_englis.md)  
+- [20180317_new_concept_english.md](/foreignlanguage/20180317_new_concept_english.md)  
 ## network  
 - [20180120_HTTP协议.md](/network/20180120_HTTP%E5%8D%8F%E8%AE%AE.md)  
 - [20180120_ssh相关.md](/network/20180120_ssh%E7%9B%B8%E5%85%B3.md)  
