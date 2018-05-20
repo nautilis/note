@@ -92,3 +92,36 @@ public class CDPlayerTest {
 > @Autowired注解的,因此就不能使用自动化装配的方案了。
 
 > JavaConfig也不应该侵入到业务逻辑代码,通常会将JavaConfig放到单独的包中,使它与其他的应用程序逻辑分离开来
+```java
+package javaconfig;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class CDPlayerConfig {
+    @Bean/*
+    @Bean注解会告诉Spring这个方法将会返回一个对象,该对象要注册
+为Spring应用上下文中的bean,默认名字为方法名，可指定@Bean(name="")
+    */
+    public CompactDisc sgtPeppers(){
+        return new SgtPeppers();
+    }
+
+    @Bean
+    public CDPlayer cdPlayer(){
+        return new CDPlayer(sgtPeppers()); /*
+ 调用了需要传入CompactDisc对象的构造器来创建CDPlayer实例.
+看起来,CompactDisc是通过调用sgtPeppers()得到的,但情况
+并非完全如此。因为sgtPeppers()方法上添加了@Bean注解,
+Spring将会拦截所有对它的调用,并确保直接返回该方法所创建的
+bean,而不是每次都对其进行实际的调用。
+        */
+    }
+
+    @Bean
+    public CDPlayer anotherCDPlayer(CompactDisc compactDisc){
+        return new CDPlayer(compactDisc);
+    }
+}
+```
