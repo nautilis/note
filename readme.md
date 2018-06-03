@@ -13,7 +13,6 @@
 - [20180526_what_different.md](/language_tools/20180526_what_different.md)  
 - [20180202_docker.md](/language_tools/20180202_docker.md)  
 - [20180425_ruby.md](/language_tools/20180425_ruby.md)  
-- [.20180602_interview_question.md.swp](/language_tools/.20180602_interview_question.md.swp)  
 - [20180523_java.md](/language_tools/20180523_java.md)  
 - [20180120_JS.md](/language_tools/20180120_JS.md)  
 - [20180121_ffmpeg.md](/language_tools/20180121_ffmpeg.md)  
