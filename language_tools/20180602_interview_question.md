@@ -50,3 +50,10 @@ Map m = Collections.synchronizedMap(hashMap);
 - ViewReslover解析后返回具体View
 - DispatcherServlet对View进行渲染视图（即将模型数据填充至视图中）。
 - DispatcherServlet响应用户.
+
+
+
+### Java QA
+- String s = "a" + "b" + "c" +"d" + "e";创建了几个对象?  
+***A***: 只创建了一个。赋值符号右边的"a", "b", "c"...都是常量（？基本类型)对于常量，编译时直接存储其字面值而不是它们的引用。
+- String s = a + b + c + d + e, (a,b,c,d,e为常量
