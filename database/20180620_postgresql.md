@@ -13,3 +13,11 @@ CREATE SEQUENCE gys.mytable_myid_seq
     CACHE 2;
 alter table mytable alter column myid set default nextval('mytable_myid_seq');
 ```
+
+- update ... limit 和 delete ...limit 
+```sql
+delete from tbl where ctid = any(array(select ctid from tbl where xxx limit xx));
+
+update tbl set xx=xx where ctid = any(array(select ctid from tbl where xxx limit xx));
+
+```
