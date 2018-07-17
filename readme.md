@@ -13,10 +13,12 @@
 - [20180120_ssh相关.md](/network/20180120_ssh%E7%9B%B8%E5%85%B3.md)  
 ## language_tools  
 - [20180709_shell.md](/language_tools/20180709_shell.md)  
+- [20180710_git.md](/language_tools/20180710_git.md)  
 - [20180526_what_different.md](/language_tools/20180526_what_different.md)  
 - [20180202_docker.md](/language_tools/20180202_docker.md)  
 - [20180425_ruby.md](/language_tools/20180425_ruby.md)  
 - [20180523_java.md](/language_tools/20180523_java.md)  
+- [20180717_Algorithm.md](/language_tools/20180717_Algorithm.md)  
 - [20180120_JS.md](/language_tools/20180120_JS.md)  
 - [20180121_ffmpeg.md](/language_tools/20180121_ffmpeg.md)  
 - [20180128_flask.md](/language_tools/20180128_flask.md)  
