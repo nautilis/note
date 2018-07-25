@@ -1,6 +1,8 @@
 ## database  
 - [20180620_postgresql.md](/database/20180620_postgresql.md)  
 - [20180602_about_index.md](/database/20180602_about_index.md)  
+## whatscategory  
+- [20180723_位操作.md](/whatscategory/20180723_%E4%BD%8D%E6%93%8D%E4%BD%9C.md)  
 ## front-end  
 - [20180116_react.md](/front-end/20180116_react.md)  
 ## book  
