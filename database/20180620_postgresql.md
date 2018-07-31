@@ -41,3 +41,8 @@ DELETE t1 FROM test_table t1
 	test_table t2
 WHERE t1.id < t2.id AND t1.acolumn = t2.acolumn;
 ```
+
+##### 使用函数
+- to_char(a.created,'YYYY-MM-DD HH24:MI:SS')
+- COALESCE(SUM(amount), 0)
+- date_part('hour', statistics_time)
