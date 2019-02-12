@@ -176,3 +176,19 @@ public class EchoClient {
 - 一个 Channel 在它的生命周期内只注册于一个 EventLoop；
 - 一个 EventLoop 可能会被分配给一个或多个 Channel。
 
+##### 第五章 ByteBuf API 
+> Java NIO 提供了 ByteBuffer 作为它的字节容器，但是这个类使用起来过于复杂，而且也有些繁琐。Netty 的 ByteBuffer 替代品是 ByteBuf，一个强大的实现。
+
+###### ByteBuf 使用模式
+- 堆缓冲区，数据存在JVM的堆空间，这种模式被称为支持数组（backing array），它能在没有使用池化的情况下提供快速的分配和释放。
+```Java
+ByteBuf heapBuf = ...;
+if (heapBuf.hasArray()) {
+byte[] array = heapBuf.array();
+int offset = heapBuf.arrayOffset() + heapBuf.readerIndex();
+int length = heapBuf.readableBytes();
+handleArray(array, offset, length);
+}
+```
+
+- 直接缓冲区，ByteBuffer 类允许 JVM 实现通过本地调用来分配内存。了避免在每次调用本地 I/O 操作之前（或者之后）将缓冲区的内容复制到一个中间缓冲区（或者从中间缓冲区把内容复制到缓冲区）。
